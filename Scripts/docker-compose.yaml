@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+  qix:
+    image: qlikcore/engine:12.300.0
+    restart: always
+    command: -S AcceptEULA=yes
+    environment:
+       AcceptEULA: 'yes'
+    deploy:
+      replicas: 1
+    ports:
+      - "19076:9076"
+    volumes:
+      - apps:/home/
+    container_name: meetUp_qix
+
+volumes:
+  apps:

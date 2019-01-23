@@ -1,0 +1,29 @@
+BACKEND
+
+1. Creazione Directory di Lavoro
+2. Creazione progetto express
+3. Installazione dipendenze enigma.js, ws, halyard.js, bluebird
+4. Copia enigma-config.js
+5. Copia File STEP 1 
+6. PRIMA ESECUZIONE (Mostrare connessione all'Engine)
+7. Accedere al dev-hub e mostrare Engine API (DocList, OpenDoc e CloseDoc)
+8. Copiare File STEP 2
+9. Eseguire la creazione del documento e mostrare il file qvf
+10. Copiare File STEP 3 (Class MUSIC)
+11. Mostrare funzionamento
+12. Copiare STEP 4 (Aggiunta con Hylard)
+13. Mostrare funzionamente con corectl corectl --engine localhost:19076 --app Musica tables
+14. Mostrare un contenuto campo con corectl --engine localhost:19076 --app Musica field title
+15. Lista di tutti i campi corectl --engine localhost:19076 --app Musica fields
+16. Estrazione di un ipercubo STEP 5
+
+Creazione Server REST Step 6
+----------------------------------------------------------------------------------------------------
+RONTEND
+
+17. Creare progetto angular --> ng new CoreMusic
+18. ng generate component picasso
+
+
+
+
